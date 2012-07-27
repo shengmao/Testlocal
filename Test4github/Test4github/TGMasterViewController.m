@@ -117,4 +117,8 @@
     self.detailViewController.detailItem = object;
 }
 
+    
+-(void) presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated{
+    
+}
 @end
