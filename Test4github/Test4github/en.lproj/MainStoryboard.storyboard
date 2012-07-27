@@ -84,9 +84,28 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="czo-ff-UTv"/>
+                    <connections>
+                        <segue destination="kjc-0m-X4q" kind="push" id="5zv-2h-3o0"/>
+                    </connections>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="1292" y="105"/>
+            <point key="canvasLocation" x="1388" y="248"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="58Q-fN-Rlo">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hps-ex-Gyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="kjc-0m-X4q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8wY-wN-To5">
+                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RIU-iq-0gy"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2388" y="207"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="18">
