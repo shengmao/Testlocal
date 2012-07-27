@@ -89,7 +89,7 @@
                     </connections>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="1388" y="248"/>
+            <point key="canvasLocation" x="1700" y="528"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="58Q-fN-Rlo">
@@ -105,7 +105,7 @@
                     <navigationItem key="navigationItem" id="RIU-iq-0gy"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="2388" y="207"/>
+            <point key="canvasLocation" x="2412" y="-833"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="18">
