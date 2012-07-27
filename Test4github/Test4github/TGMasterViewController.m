@@ -116,6 +116,9 @@
     NSDate *object = [_objects objectAtIndex:indexPath.row];
     self.detailViewController.detailItem = object;
 }
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+}
 
     
 -(void) presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated{
