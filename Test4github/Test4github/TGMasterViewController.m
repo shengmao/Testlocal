@@ -116,5 +116,8 @@
     NSDate *object = [_objects objectAtIndex:indexPath.row];
     self.detailViewController.detailItem = object;
 }
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+}
 
 @end
