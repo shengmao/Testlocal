@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5491AB971591AE3D00460127 /* GenericAppIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 5491AB961591AE3D00460127 /* GenericAppIcon.tif */; };
+		5491AB9B1591B12400460127 /* TEPatientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491AB9A1591B12400460127 /* TEPatientCell.m */; };
+		5498FC34159332D000BCC47D /* chronik.png in Resources */ = {isa = PBXBuildFile; fileRef = 5498FC33159332D000BCC47D /* chronik.png */; };
+		5498FC381593334100BCC47D /* TESingleChronikViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498FC371593334100BCC47D /* TESingleChronikViewController.m */; };
+		5498FC4315933C5F00BCC47D /* TESingleDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498FC4215933C5F00BCC47D /* TESingleDocumentViewController.m */; };
+		54A989D4158E0F9500CAAE34 /* patientpicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A989D3158E0F9500CAAE34 /* patientpicture.png */; };
+		54A989E6158E3A5C00CAAE34 /* neurospinecenter_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A989E5158E3A5C00CAAE34 /* neurospinecenter_logo.jpg */; };
+		54A989E8158E539000CAAE34 /* techedge_leverage_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A989E7158E539000CAAE34 /* techedge_leverage_logo.jpg */; };
+		54E40EEC158B0D6D00A1B3DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E40EEB158B0D6D00A1B3DC /* UIKit.framework */; };
+		54E40EEE158B0D6D00A1B3DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E40EED158B0D6D00A1B3DC /* Foundation.framework */; };
+		54E40EF0158B0D6D00A1B3DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E40EEF158B0D6D00A1B3DC /* CoreGraphics.framework */; };
+		54E40EF6158B0D6D00A1B3DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54E40EF4158B0D6D00A1B3DC /* InfoPlist.strings */; };
+		54E40EF8158B0D6D00A1B3DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E40EF7158B0D6D00A1B3DC /* main.m */; };
+		54E40EFC158B0D6D00A1B3DC /* TEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E40EFB158B0D6D00A1B3DC /* TEAppDelegate.m */; };
+		54E40EFF158B0D6D00A1B3DC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E40EFD158B0D6D00A1B3DC /* MainStoryboard.storyboard */; };
+		54E40F02158B0D6D00A1B3DC /* TEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E40F01158B0D6D00A1B3DC /* TEViewController.m */; };
+		54E40F0E158B154900A1B3DC /* TELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E40F0D158B154900A1B3DC /* TELoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5491AB961591AE3D00460127 /* GenericAppIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GenericAppIcon.tif; sourceTree = "<group>"; };
+		5491AB991591B12400460127 /* TEPatientCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEPatientCell.h; sourceTree = "<group>"; };
+		5491AB9A1591B12400460127 /* TEPatientCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEPatientCell.m; sourceTree = "<group>"; };
+		5498FC33159332D000BCC47D /* chronik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chronik.png; sourceTree = "<group>"; };
+		5498FC361593334100BCC47D /* TESingleChronikViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESingleChronikViewController.h; sourceTree = "<group>"; };
+		5498FC371593334100BCC47D /* TESingleChronikViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESingleChronikViewController.m; sourceTree = "<group>"; };
+		5498FC3A1593373F00BCC47D /* AlHami@Mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AlHami@Mobile.entitlements"; sourceTree = "<group>"; };
+		5498FC4115933C5F00BCC47D /* TESingleDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESingleDocumentViewController.h; sourceTree = "<group>"; };
+		5498FC4215933C5F00BCC47D /* TESingleDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESingleDocumentViewController.m; sourceTree = "<group>"; };
+		54A989D3158E0F9500CAAE34 /* patientpicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patientpicture.png; sourceTree = "<group>"; };
+		54A989E5158E3A5C00CAAE34 /* neurospinecenter_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neurospinecenter_logo.jpg; sourceTree = "<group>"; };
+		54A989E7158E539000CAAE34 /* techedge_leverage_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = techedge_leverage_logo.jpg; sourceTree = "<group>"; };
+		54E40EE7158B0D6D00A1B3DC /* AlHami@Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlHami@Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E40EEB158B0D6D00A1B3DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54E40EED158B0D6D00A1B3DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54E40EEF158B0D6D00A1B3DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54E40EF3158B0D6D00A1B3DC /* AlHami@Mobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlHami@Mobile-Info.plist"; sourceTree = "<group>"; };
+		54E40EF5158B0D6D00A1B3DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54E40EF7158B0D6D00A1B3DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54E40EF9158B0D6D00A1B3DC /* AlHami@Mobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlHami@Mobile-Prefix.pch"; sourceTree = "<group>"; };
+		54E40EFA158B0D6D00A1B3DC /* TEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEAppDelegate.h; sourceTree = "<group>"; };
+		54E40EFB158B0D6D00A1B3DC /* TEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEAppDelegate.m; sourceTree = "<group>"; };
+		54E40EFE158B0D6D00A1B3DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		54E40F00158B0D6D00A1B3DC /* TEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEViewController.h; sourceTree = "<group>"; };
+		54E40F01158B0D6D00A1B3DC /* TEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEViewController.m; sourceTree = "<group>"; };
+		54E40F0C158B154900A1B3DC /* TELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TELoginViewController.h; sourceTree = "<group>"; };
+		54E40F0D158B154900A1B3DC /* TELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TELoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54E40EE4158B0D6D00A1B3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E40EEC158B0D6D00A1B3DC /* UIKit.framework in Frameworks */,
+				54E40EEE158B0D6D00A1B3DC /* Foundation.framework in Frameworks */,
+				54E40EF0158B0D6D00A1B3DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5491AB9C1591B1ED00460127 /* SpecialClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5491AB9A1591B12400460127 /* TEPatientCell.m */,
+				5491AB991591B12400460127 /* TEPatientCell.h */,
+			);
+			name = SpecialClasses;
+			sourceTree = "<group>";
+		};
+		5498FC391593334500BCC47D /* SingleViews */ = {
+			isa = PBXGroup;
+			children = (
+				5498FC361593334100BCC47D /* TESingleChronikViewController.h */,
+				5498FC371593334100BCC47D /* TESingleChronikViewController.m */,
+				5498FC4115933C5F00BCC47D /* TESingleDocumentViewController.h */,
+				5498FC4215933C5F00BCC47D /* TESingleDocumentViewController.m */,
+			);
+			name = SingleViews;
+			sourceTree = "<group>";
+		};
+		54E40EDC158B0D6D00A1B3DC = {
+			isa = PBXGroup;
+			children = (
+				54E40EF1158B0D6D00A1B3DC /* AlHami@Mobile */,
+				54E40EEA158B0D6D00A1B3DC /* Frameworks */,
+				54E40EE8158B0D6D00A1B3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54E40EE8158B0D6D00A1B3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54E40EE7158B0D6D00A1B3DC /* AlHami@Mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54E40EEA158B0D6D00A1B3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54E40EEB158B0D6D00A1B3DC /* UIKit.framework */,
+				54E40EED158B0D6D00A1B3DC /* Foundation.framework */,
+				54E40EEF158B0D6D00A1B3DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54E40EF1158B0D6D00A1B3DC /* AlHami@Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				5498FC3A1593373F00BCC47D /* AlHami@Mobile.entitlements */,
+				54E40EFA158B0D6D00A1B3DC /* TEAppDelegate.h */,
+				54E40EFB158B0D6D00A1B3DC /* TEAppDelegate.m */,
+				54E40EFD158B0D6D00A1B3DC /* MainStoryboard.storyboard */,
+				54E40F0C158B154900A1B3DC /* TELoginViewController.h */,
+				54E40F0D158B154900A1B3DC /* TELoginViewController.m */,
+				54E40F00158B0D6D00A1B3DC /* TEViewController.h */,
+				54E40F01158B0D6D00A1B3DC /* TEViewController.m */,
+				5498FC391593334500BCC47D /* SingleViews */,
+				5491AB9C1591B1ED00460127 /* SpecialClasses */,
+				54E40EF2158B0D6D00A1B3DC /* Supporting Files */,
+			);
+			path = "AlHami@Mobile";
+			sourceTree = "<group>";
+		};
+		54E40EF2158B0D6D00A1B3DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5498FC33159332D000BCC47D /* chronik.png */,
+				5491AB961591AE3D00460127 /* GenericAppIcon.tif */,
+				54A989E7158E539000CAAE34 /* techedge_leverage_logo.jpg */,
+				54A989E5158E3A5C00CAAE34 /* neurospinecenter_logo.jpg */,
+				54A989D3158E0F9500CAAE34 /* patientpicture.png */,
+				54E40EF3158B0D6D00A1B3DC /* AlHami@Mobile-Info.plist */,
+				54E40EF4158B0D6D00A1B3DC /* InfoPlist.strings */,
+				54E40EF7158B0D6D00A1B3DC /* main.m */,
+				54E40EF9158B0D6D00A1B3DC /* AlHami@Mobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54E40EE6158B0D6D00A1B3DC /* AlHami@Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E40F05158B0D6D00A1B3DC /* Build configuration list for PBXNativeTarget "AlHami@Mobile" */;
+			buildPhases = (
+				54E40EE3158B0D6D00A1B3DC /* Sources */,
+				54E40EE4158B0D6D00A1B3DC /* Frameworks */,
+				54E40EE5158B0D6D00A1B3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AlHami@Mobile";
+			productName = "AlHami@Mobile";
+			productReference = 54E40EE7158B0D6D00A1B3DC /* AlHami@Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54E40EDE158B0D6D00A1B3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TE;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Techedge;
+			};
+			buildConfigurationList = 54E40EE1158B0D6D00A1B3DC /* Build configuration list for PBXProject "AlHami@Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54E40EDC158B0D6D00A1B3DC;
+			productRefGroup = 54E40EE8158B0D6D00A1B3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54E40EE6158B0D6D00A1B3DC /* AlHami@Mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54E40EE5158B0D6D00A1B3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E40EF6158B0D6D00A1B3DC /* InfoPlist.strings in Resources */,
+				54E40EFF158B0D6D00A1B3DC /* MainStoryboard.storyboard in Resources */,
+				54A989D4158E0F9500CAAE34 /* patientpicture.png in Resources */,
+				54A989E6158E3A5C00CAAE34 /* neurospinecenter_logo.jpg in Resources */,
+				54A989E8158E539000CAAE34 /* techedge_leverage_logo.jpg in Resources */,
+				5491AB971591AE3D00460127 /* GenericAppIcon.tif in Resources */,
+				5498FC34159332D000BCC47D /* chronik.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E40EE3158B0D6D00A1B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E40EF8158B0D6D00A1B3DC /* main.m in Sources */,
+				54E40EFC158B0D6D00A1B3DC /* TEAppDelegate.m in Sources */,
+				54E40F02158B0D6D00A1B3DC /* TEViewController.m in Sources */,
+				54E40F0E158B154900A1B3DC /* TELoginViewController.m in Sources */,
+				5491AB9B1591B12400460127 /* TEPatientCell.m in Sources */,
+				5498FC381593334100BCC47D /* TESingleChronikViewController.m in Sources */,
+				5498FC4315933C5F00BCC47D /* TESingleDocumentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54E40EF4158B0D6D00A1B3DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E40EF5158B0D6D00A1B3DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54E40EFD158B0D6D00A1B3DC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E40EFE158B0D6D00A1B3DC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54E40F03158B0D6D00A1B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		54E40F04158B0D6D00A1B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54E40F06158B0D6D00A1B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlHami@Mobile/AlHami@Mobile-Prefix.pch";
+				INFOPLIST_FILE = "AlHami@Mobile/AlHami@Mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54E40F07158B0D6D00A1B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlHami@Mobile/AlHami@Mobile-Prefix.pch";
+				INFOPLIST_FILE = "AlHami@Mobile/AlHami@Mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54E40EE1158B0D6D00A1B3DC /* Build configuration list for PBXProject "AlHami@Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E40F03158B0D6D00A1B3DC /* Debug */,
+				54E40F04158B0D6D00A1B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E40F05158B0D6D00A1B3DC /* Build configuration list for PBXNativeTarget "AlHami@Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E40F06158B0D6D00A1B3DC /* Debug */,
+				54E40F07158B0D6D00A1B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54E40EDE158B0D6D00A1B3DC /* Project object */;
+}
