@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4226DF6415C21DF0001AE304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4226DF6315C21DF0001AE304 /* UIKit.framework */; };
+		4226DF6615C21DF0001AE304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4226DF6515C21DF0001AE304 /* Foundation.framework */; };
+		4226DF6815C21DF0001AE304 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4226DF6715C21DF0001AE304 /* CoreGraphics.framework */; };
+		4226DF6E15C21DF0001AE304 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4226DF6C15C21DF0001AE304 /* InfoPlist.strings */; };
+		4226DF7015C21DF0001AE304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226DF6F15C21DF0001AE304 /* main.m */; };
+		4226DF7415C21DF0001AE304 /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226DF7315C21DF0001AE304 /* TGAppDelegate.m */; };
+		4226DF7715C21DF0001AE304 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4226DF7515C21DF0001AE304 /* MainStoryboard.storyboard */; };
+		4226DF7A15C21DF0001AE304 /* TGMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226DF7915C21DF0001AE304 /* TGMasterViewController.m */; };
+		4226DF7D15C21DF0001AE304 /* TGDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226DF7C15C21DF0001AE304 /* TGDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4226DF5F15C21DF0001AE304 /* Test4github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test4github.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4226DF6315C21DF0001AE304 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4226DF6515C21DF0001AE304 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4226DF6715C21DF0001AE304 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4226DF6B15C21DF0001AE304 /* Test4github-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test4github-Info.plist"; sourceTree = "<group>"; };
+		4226DF6D15C21DF0001AE304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4226DF6F15C21DF0001AE304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4226DF7115C21DF0001AE304 /* Test4github-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test4github-Prefix.pch"; sourceTree = "<group>"; };
+		4226DF7215C21DF0001AE304 /* TGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
+		4226DF7315C21DF0001AE304 /* TGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		4226DF7615C21DF0001AE304 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4226DF7815C21DF0001AE304 /* TGMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGMasterViewController.h; sourceTree = "<group>"; };
+		4226DF7915C21DF0001AE304 /* TGMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGMasterViewController.m; sourceTree = "<group>"; };
+		4226DF7B15C21DF0001AE304 /* TGDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDetailViewController.h; sourceTree = "<group>"; };
+		4226DF7C15C21DF0001AE304 /* TGDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4226DF5C15C21DF0001AE304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226DF6415C21DF0001AE304 /* UIKit.framework in Frameworks */,
+				4226DF6615C21DF0001AE304 /* Foundation.framework in Frameworks */,
+				4226DF6815C21DF0001AE304 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4226DF5415C21DEF001AE304 = {
+			isa = PBXGroup;
+			children = (
+				4226DF6915C21DF0001AE304 /* Test4github */,
+				4226DF6215C21DF0001AE304 /* Frameworks */,
+				4226DF6015C21DF0001AE304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4226DF6015C21DF0001AE304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4226DF5F15C21DF0001AE304 /* Test4github.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4226DF6215C21DF0001AE304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4226DF6315C21DF0001AE304 /* UIKit.framework */,
+				4226DF6515C21DF0001AE304 /* Foundation.framework */,
+				4226DF6715C21DF0001AE304 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4226DF6915C21DF0001AE304 /* Test4github */ = {
+			isa = PBXGroup;
+			children = (
+				4226DF7215C21DF0001AE304 /* TGAppDelegate.h */,
+				4226DF7315C21DF0001AE304 /* TGAppDelegate.m */,
+				4226DF7515C21DF0001AE304 /* MainStoryboard.storyboard */,
+				4226DF7815C21DF0001AE304 /* TGMasterViewController.h */,
+				4226DF7915C21DF0001AE304 /* TGMasterViewController.m */,
+				4226DF7B15C21DF0001AE304 /* TGDetailViewController.h */,
+				4226DF7C15C21DF0001AE304 /* TGDetailViewController.m */,
+				4226DF6A15C21DF0001AE304 /* Supporting Files */,
+			);
+			path = Test4github;
+			sourceTree = "<group>";
+		};
+		4226DF6A15C21DF0001AE304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4226DF6B15C21DF0001AE304 /* Test4github-Info.plist */,
+				4226DF6C15C21DF0001AE304 /* InfoPlist.strings */,
+				4226DF6F15C21DF0001AE304 /* main.m */,
+				4226DF7115C21DF0001AE304 /* Test4github-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4226DF5E15C21DF0001AE304 /* Test4github */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4226DF8015C21DF0001AE304 /* Build configuration list for PBXNativeTarget "Test4github" */;
+			buildPhases = (
+				4226DF5B15C21DF0001AE304 /* Sources */,
+				4226DF5C15C21DF0001AE304 /* Frameworks */,
+				4226DF5D15C21DF0001AE304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test4github;
+			productName = Test4github;
+			productReference = 4226DF5F15C21DF0001AE304 /* Test4github.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4226DF5615C21DEF001AE304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TG;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4226DF5915C21DEF001AE304 /* Build configuration list for PBXProject "Test4github" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4226DF5415C21DEF001AE304;
+			productRefGroup = 4226DF6015C21DF0001AE304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4226DF5E15C21DF0001AE304 /* Test4github */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4226DF5D15C21DF0001AE304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226DF6E15C21DF0001AE304 /* InfoPlist.strings in Resources */,
+				4226DF7715C21DF0001AE304 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4226DF5B15C21DF0001AE304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226DF7015C21DF0001AE304 /* main.m in Sources */,
+				4226DF7415C21DF0001AE304 /* TGAppDelegate.m in Sources */,
+				4226DF7A15C21DF0001AE304 /* TGMasterViewController.m in Sources */,
+				4226DF7D15C21DF0001AE304 /* TGDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4226DF6C15C21DF0001AE304 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4226DF6D15C21DF0001AE304 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4226DF7515C21DF0001AE304 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4226DF7615C21DF0001AE304 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4226DF7E15C21DF0001AE304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4226DF7F15C21DF0001AE304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4226DF8115C21DF0001AE304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test4github/Test4github-Prefix.pch";
+				INFOPLIST_FILE = "Test4github/Test4github-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4226DF8215C21DF0001AE304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test4github/Test4github-Prefix.pch";
+				INFOPLIST_FILE = "Test4github/Test4github-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4226DF5915C21DEF001AE304 /* Build configuration list for PBXProject "Test4github" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4226DF7E15C21DF0001AE304 /* Debug */,
+				4226DF7F15C21DF0001AE304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4226DF8015C21DF0001AE304 /* Build configuration list for PBXNativeTarget "Test4github" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4226DF8115C21DF0001AE304 /* Debug */,
+				4226DF8215C21DF0001AE304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4226DF5615C21DEF001AE304 /* Project object */;
+}
