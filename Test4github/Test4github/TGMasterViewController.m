@@ -117,7 +117,8 @@
     self.detailViewController.detailItem = object;
 }
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    
+    NSLog(@"---> %s",__PRETTY_FUNCTION__);
+    NSLog(@"---> %s",__PRETTY_FUNCTION__);
 }
 
 @end
